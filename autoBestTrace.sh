@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # apt -y install unzip
-echo '关于软件卸载，因为nexttrace是绿色版单文件，卸载只需输入命令 rm /usr/local/bin/nexttrace 即可'
 
 # install nexttrace
 if [ ! -f "/usr/local/bin/nexttrace" ]; then
@@ -14,6 +13,7 @@ next() {
     printf "%-70s\n" "-" | sed 's/\s/-/g'
 }
 
+echo '关于软件卸载，因为nexttrace是绿色版单文件，卸载只需输入命令 rm /usr/local/bin/nexttrace 即可'
 clear
 next
 
